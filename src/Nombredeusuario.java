@@ -13,11 +13,13 @@ public class Nombredeusuario {
             nombreformateado += partes[i].substring(1).toLowerCase() + " ";
         }
         System.out.println("El nombre formateado es: "+nombreformateado);
+
         String iniciales = "";
         for (int i = 0; i < partes.length; i++) {
             iniciales += partes[i].substring(0, 1).toUpperCase() + ".";
         }
         System.out.println("Las iniciales son: "+iniciales);
+
         String usuario = "";
         for (int i = 0; i < partes.length; i++) {
             usuario = partes[0].substring(0, 1).toLowerCase() + partes[1].toLowerCase() + partes[2].substring(0, 1).toLowerCase();

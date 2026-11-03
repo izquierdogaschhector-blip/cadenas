@@ -9,7 +9,7 @@ public class Siglas {
         String[] separados = frase.split("\\s+");
         for(int i = 0; i < separados.length; i++){
             if (Character.isUpperCase(separados[i].charAt(0))) {
-                System.out.println(separados[i].charAt(0) + "" + separados[i + i].charAt(0));
+                System.out.println(separados[i].charAt(0) + "" + separados[i].charAt(0));
             }
         }
     }

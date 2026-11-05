@@ -6,6 +6,6 @@ class SiglasTest {
 
     @Test
     void siglas() {
-        assertEquals("EOI", Siglas.siglas(new String[]{"Escuela", "Oficial",  "de", "Idiomas"}));
+        assertEquals("EOI", Siglas.siglas("Escuela Oficial de Idiomas"));
     }
 }
